@@ -13,7 +13,8 @@
     "try": "run-s clean build dist:dir open"
   },
   "dependencies": {
-    "electron-snowpack": "*"
+    "electron-snowpack": "*",
+    "sharp": "0.26.3"
   },
   "devDependencies": {
     "@types/snowpack-env": "^2.3.3",
